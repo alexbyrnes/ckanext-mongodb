@@ -31,7 +31,7 @@ Activate CKAN's virtual environment (you may need to su or lower security for /v
 
 Install this extension:
 
-    (pyenv)$ pip install -e 'git+https://github.com/alexbyrnes/ckanext-mongodb.git#egg=ckanext-mongodb'
+    (pyenv)$ pip install -e 'git+git://github.com/alexbyrnes/ckanext-mongodb.git#egg=ckanext-mongodb'
 
 Edit the CKAN ini:
 
