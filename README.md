@@ -7,7 +7,7 @@ CKAN extension for using MongoDB for datasets.
 
 Install CKAN 1.7:
 ```
-$ sudo apt-get install -y wget
+$ sudo apt-get update
 $ echo "deb http://apt.ckan.org/ckan-1.7 lucid universe" | sudo tee /etc/apt/sources.list.d/ckan.list
 $ wget -qO- "http://apt.ckan.org/packages_public.key" | sudo apt-key add -
 $ sudo apt-get update
@@ -52,7 +52,7 @@ The extension should now be installed.  Add a data set by clicking "Add a Datase
 
 Now fire up a python shell (the virtual environment needs to be activated):
 
-    $ python
+    (pyenv)$ python
 
 ```python
 >>> from pymongo import Connection
