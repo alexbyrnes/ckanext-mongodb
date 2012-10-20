@@ -1,7 +1,7 @@
 ckanext-mongodb
 ===============
 
-CKAN extension for using MongoDB for datasets.
+CKAN extension for MongoDB
 
 ##Installation (Ubuntu 10.04)
 
