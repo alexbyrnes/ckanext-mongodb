@@ -57,7 +57,7 @@ Now fire up a python shell (the virtual environment needs to be activated):
 ```python
 >>> from pymongo import Connection
 >>> con = Connection()
->>> col = con.ckan_db.packages
+>>> col = con.ckan_db.datasets
 >>> for p in col.find():
 ...    p
 ```
