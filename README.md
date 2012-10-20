@@ -75,7 +75,7 @@ Go to "Search" from the front page of CKAN, and voila, you should see the text a
 
 Simple API at:
 
-    http://localhost:28017/ckan_db/datasets/
+    http://<SERVER NAME>:28017/ckan_db/datasets/
 
 More info on Mongo APIs: http://www.mongodb.org/display/DOCS/Http+Interface#HttpInterface-SimpleRESTInterface
 
